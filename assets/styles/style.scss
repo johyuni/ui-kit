@@ -1,1 +1,10 @@
-h3 {color:red;}
+// 통합스타일
+@charset "UTF-8";
+
+// common
+@import "./common/reset";
+@import "./common/common";
+
+// utils
+@import "./utils/mixins.scss";
+@import "./utils/variables.scss";

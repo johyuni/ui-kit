@@ -47,9 +47,19 @@ table {
 	border-spacing: 0;
 }
 
+input {
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	color: #333;
+}
+
+
 html {font-size: 10px;}
 
 // fonts
 @import url("~@/assets/fonts/pretendard.css");
 $font-main: "Pretendard", "Noto Sans KR", sans-serif;
-body {font-family: $font-main; font-size: 1.4rem;}
+body {font-family: $font-main; font-size: 1.4rem; color: #333;}

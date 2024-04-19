@@ -46,12 +46,91 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+input {
+  box-sizing: border-box; }
+
+a {
+  text-decoration: none;
+  color: #333; }
+
 html {
   font-size: 10px; }
 
 body {
   font-family: "Pretendard", "Noto Sans KR", sans-serif;
-  font-size: 1.4rem; }
+  font-size: 1.4rem;
+  color: #333; }
 
-h3 {
-  color: red; }
+body {
+  background: #eee; }
+
+.nav {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  padding: 145px 20px 0 20px;
+  width: 200px;
+  box-sizing: border-box; }
+  .nav__link {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 1.4rem; }
+
+.content {
+  margin-left: 20rem;
+  width: 80rem;
+  padding: 3rem;
+  background-color: #fff;
+  box-sizing: border-box; }
+  .content__tit {
+    padding: 2rem 0 2rem;
+    font-size: 2rem;
+    font-weight: 600;
+    border-bottom: 1px solid #eee; }
+
+.section {
+  margin-top: 3rem; }
+  .section__tit {
+    font-size: 1.4rem;
+    font-weight: 500; }
+
+.code-box {
+  margin-top: 1rem;
+  border: 1px solid #eee;
+  border-radius: 0.6rem; }
+  .code-box__example {
+    padding: 3rem 4rem;
+    border-bottom: 1px solid #eee; }
+  .code-box__code pre {
+    padding: 1.6rem;
+    background-color: #eee;
+    font-family: "Consolas", "Sans Mono", "Courier", "monospace"; }
+
+.form-box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .6rem 0; }
+  .form-box__label {
+    display: block;
+    width: 100%;
+    font-size: 1.4rem;
+    font-weight: 500; }
+  .form-box__input {
+    height: 5.6rem;
+    padding: 0 1.6rem;
+    border: 1px solid #eee;
+    border-radius: .6rem;
+    font-size: 1.6rem; }
+
+.a11y-hidden {
+  overflow: hidden;
+  position: absolute;
+  clip: rect(0, 0, 0, 0);
+  clip-path: circle(0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap; }

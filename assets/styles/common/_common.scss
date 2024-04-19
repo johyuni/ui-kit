@@ -1,1 +1,22 @@
-h3 {color:red;}
+
+
+
+// Input
+.form-box {
+	display: flex;
+	flex-wrap: wrap;
+	gap: .6rem 0;
+  &__label {
+		display: block;
+		width: 100%;
+		font-size: 1.4rem;
+		font-weight: 500;
+	}
+	&__input {
+		height: 5.6rem;
+		padding: 0 1.6rem;
+		border: 1px solid #eee;
+		border-radius: .6rem;
+		font-size: 1.6rem;
+	}
+}

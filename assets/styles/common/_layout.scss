@@ -1,0 +1,55 @@
+body {background:#eee;}
+
+.nav {
+	position: fixed;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	padding: 145px 20px 0 20px;
+	width: 200px;
+	box-sizing: border-box;
+	&__link {
+		display: block;
+		font-weight: 500;
+		margin-bottom: 1.4rem;
+	}
+}
+
+.content {
+	margin-left: 20rem;
+	width: 80rem;
+	padding: 3rem;
+	background-color: #fff;
+	box-sizing: border-box;
+	&__tit{
+		padding: 2rem 0 2rem;
+		font-size: 2rem;
+		font-weight: 600;
+		border-bottom: 1px solid #eee;
+	}
+}
+
+.section {
+	margin-top: 3rem;
+	&__tit {
+		font-size: 1.4rem;
+		font-weight: 500;
+	}
+}
+
+.code-box {
+	margin-top: 1rem;
+	border: 1px solid #eee;
+	border-radius: 0.6rem;
+	&__example {
+		padding: 3rem 4rem;
+		border-bottom: 1px solid #eee;
+	}
+	&__code {
+		pre {
+			padding:1.6rem;
+			background-color: #eee;
+			font-family: "Consolas", "Sans Mono", "Courier", "monospace";
+		}
+	}
+}

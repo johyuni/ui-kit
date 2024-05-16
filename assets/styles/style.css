@@ -69,8 +69,8 @@ body {
   left: 0;
   top: 0;
   bottom: 0;
-  padding: 145px 20px 0 20px;
-  width: 200px;
+  padding: 14.5rem 2rem 0 2rem;
+  width: 20rem;
   box-sizing: border-box; }
   .nav__link {
     display: block;
@@ -104,7 +104,7 @@ body {
     border-bottom: 1px solid #eee; }
   .code-box__code pre {
     padding: 1.6rem;
-    background-color: #eee;
+    background-color: #f1f1f1;
     font-family: "Consolas", "Sans Mono", "Courier", "monospace"; }
 
 .form-box {
